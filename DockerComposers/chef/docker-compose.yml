@@ -19,7 +19,7 @@ services:
 #    networks:
 #      - chef
     container_name: ws
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: ws
     restart: always
 
@@ -31,7 +31,7 @@ services:
       chef:
         ipv4_address: 172.0.101.10
     container_name: node1
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: node1
     restart: always
 
@@ -43,7 +43,7 @@ services:
       chef:
         ipv4_address: 172.0.101.11
     container_name: node2
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: node2
     restart: always
 
@@ -56,7 +56,7 @@ services:
       chef:
         ipv4_address: 172.0.101.12
     container_name: node3
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: node3
     restart: always
 
@@ -69,6 +69,6 @@ services:
       chef:
         ipv4_address: 172.0.101.13
     container_name: node4
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: node4
     restart: always

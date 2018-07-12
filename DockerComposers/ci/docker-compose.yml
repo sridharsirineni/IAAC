@@ -13,7 +13,7 @@ services:
       - ./code:/workspace
     networks:
       - custom
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: control
     restart: always
   node1:
@@ -23,7 +23,7 @@ services:
        - "81:80"
     networks:
       - custom
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: node1
     restart: always
   node2:
@@ -33,7 +33,7 @@ services:
        - "82:80"
     networks:
       - custom
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: node2
     restart: always
   node3:
@@ -43,7 +43,7 @@ services:
       - "83:80"
     networks:
       - custom
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: node3
     restart: always
   node4:
@@ -53,7 +53,7 @@ services:
       - "80:80"
     networks:
       - custom
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: node4
     restart: always
 

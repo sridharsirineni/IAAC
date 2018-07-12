@@ -17,6 +17,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     network_mode: bridge
     container_name: docker
-    domainname: codespaces.io
+    domainname: rns.com
     hostname: docker
     restart: always
